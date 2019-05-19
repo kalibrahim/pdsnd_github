@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+May 19 2019
 
 ### Project Title
-Replace the Project Title
+Bikeshare data
 
 ### Description
-Describe what your project is about and what it does
+This project is the bikeshare data from the prevoius project that was due.
 
 ### Files used
-Include the files used
+bikeshare.py
+README.md
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+None
 
