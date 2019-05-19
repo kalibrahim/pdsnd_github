@@ -89,7 +89,7 @@ def time_stats(df):
     df['Start Hour']=df['Start Time'].dt.hour
     print("The most common start hour is: {}".format(str(df['start_hour'].mode().values[0])))
 
-
+    #Display time
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -147,6 +147,7 @@ def user_stats(df):
     # TO DO: Display earliest, most recent, and most common year of birth
     print("The earliest year of birth is: {}".format(str(int(df['Birth Year'].min()))))
 
+    #Display birth year message 
     print("The lastest year of birth is: {}".format(str(int(df['Birth Year'].max()))))
 
     print("The most frequent year of birth is: {}".format(str(int(df['Birth Year'].mode.values[0]()))))
