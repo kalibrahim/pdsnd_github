@@ -147,8 +147,10 @@ def user_stats(df):
     # TO DO: Display earliest, most recent, and most common year of birth
     print("The earliest year of birth is: {}".format(str(int(df['Birth Year'].min()))))
 
+    #Display birth year message 
     print("The lastest year of birth is: {}".format(str(int(df['Birth Year'].max()))))
 
+    
     print("The most frequent year of birth is: {}".format(str(int(df['Birth Year'].mode.values[0]()))))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
