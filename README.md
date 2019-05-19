@@ -12,5 +12,5 @@ bikeshare.py
 README.md
 
 ### Credits
-None
+Udacity.com
 
